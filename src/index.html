@@ -7,27 +7,32 @@
     <link rel="svg" href="../pictures/logo.svg" />
     <link rel="stylesheet" href="../src/index.css" />
   </head>
-  <body>
+  <body class="font-mono">
     <section>
       <div class="w-full">
         <div class="flex justify-between p-2 shadow-xl">
           <img src="../pictures/logo.svg" alt="Logo de l'entreprise" class="h-5 my-4  " />
           <ul class="flex w-40">
-            <li class="p-4"><a href="#">PRODUCTS</a></li>
-            <li class="p-4"><a href="#">FEATURES</a></li>
-            <li class="p-4"><a href="#">PRICINGS</a></li>
+            <li class="p-4 hover:text-red-400 hover:underline"><a href="#">PRODUCTS</a></li>
+            <li class="p-4 hover:text-red-400 hover:underline"><a href="#">FEATURES</a></li>
+            <li class="p-4 hover:text-red-400 hover:underline"><a href="#">PRICINGS</a></li>
           </ul>
-          <a href="#" class="hover:bg-gray-400 h-14 text-center py-4 w-20 rounded-3xl mx-20 bg-gray-300 text-white">Login</a>
+          <a href="#" class="hover:bg-gray-400 h-10 text-center py-2 my-2 w-20 rounded-3xl mx-20 bg-gray-300 text-white">Login</a>
         </div>
       </div>
     </section>
     <section class="flex">
-        <div class="text-center w-2/4 mt-32 p-10">
+        <div class="text-start w-2/4 mt-32 p-10">
             <p class="mb-4 text-sm"><span class="bg-black rounded-2xl text-white p-1.5 w-8 mx-2">NEW</span><span class="opacity-30">MONOGRAPH DASHBOARD</span></p>
-            <h1 class="font-bold text-5xl">POWERFULL INSIGHTS INTO YOUR TEAM</h1>
+            <h1 class="font-extrabold text-5xl">POWERFULL INSIGHTS INTO YOUR TEAM</h1>
+            <p class="opacity-40 mt-4">Project planing and time tracking for agil terms</p>
+            <div class="flex mt-12 mx-16">
+              <button type="button" class="bg-red-400 py-2 px-2 rounded text-white">SCHEDULE A DEMO</button>
+              <p class="py-2 px-2">TO SEE A PREVIEW</p>
+            </div>
         </div>
-        <div class="text-center w-2/4">
-
+        <div class="text-center w-2/4 bg-gray-100 h-72 rounded-bl-3xl">
+          <img src="../pictures/illustration-devices.svg" class="w-2/4 z-20 absolute mt-36" alt="Presentation d'un projet" />
         </div>
     </section>
   </body>
